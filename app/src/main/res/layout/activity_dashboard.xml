@@ -8,7 +8,7 @@
     tools:context=".Dashboard"
     android:orientation="vertical"
     android:padding="10dp"
-    android:background="#fcfcfc"
+    android:background="@color/colorBackground"
     android:gravity="center"
     android:id="@+id/ll">
     <LinearLayout
@@ -21,6 +21,7 @@
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
             android:id="@+id/bus"
+            app:cardCornerRadius="50dp"
             android:layout_width="160dp"
             android:layout_height="190dp"
             android:layout_margin="10dp">
@@ -33,7 +34,7 @@
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:background="@drawable/cerclebackgroundpurple"
-                    android:src="@drawable/ic_launcher_background"
+                    android:src="@mipmap/bus"
                     android:padding="10dp"/>
                 <TextView
                     android:layout_width="wrap_content"
@@ -61,6 +62,7 @@
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
             android:layout_width="160dp"
+            app:cardCornerRadius="50dp"
             android:layout_height="190dp"
             android:layout_margin="10dp">
             <LinearLayout
@@ -72,7 +74,7 @@
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:background="@drawable/cerclebackgroundpurple"
-                    android:src="@drawable/ic_launcher_background"
+                    android:src="@mipmap/hotel"
                     android:padding="10dp"/>
                 <TextView
                     android:layout_width="wrap_content"
@@ -107,6 +109,7 @@
             android:id="@+id/location"
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
+            app:cardCornerRadius="50dp"
             android:layout_width="160dp"
             android:layout_height="190dp"
             android:layout_margin="10dp">
@@ -119,7 +122,7 @@
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:background="@drawable/cerclebackgroundpurple"
-                    android:src="@drawable/ic_launcher_background"
+                    android:src="@mipmap/location"
                     android:padding="10dp"/>
                 <TextView
                     android:layout_width="wrap_content"
@@ -147,6 +150,7 @@
             android:foreground="?android:attr/selectableItemBackground"
             android:clickable="true"
             android:layout_width="160dp"
+            app:cardCornerRadius="50dp"
             android:layout_height="190dp"
             android:layout_margin="10dp">
 
@@ -161,7 +165,7 @@
                     android:layout_height="64dp"
                     android:background="@drawable/cerclebackgroundpurple"
                     android:padding="10dp"
-                    android:src="@drawable/ic_launcher_background" />
+                    android:src="@mipmap/developer" />
 
                 <TextView
                     android:layout_width="wrap_content"
