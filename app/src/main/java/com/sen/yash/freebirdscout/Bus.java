@@ -12,6 +12,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.CardView;
 import android.view.View;
+import android.widget.Toast;
 
 public class Bus extends AppCompatActivity {
 
@@ -24,6 +25,7 @@ public class Bus extends AppCompatActivity {
         patel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Toast.makeText(getApplicationContext(),"Site is loading...",Toast.LENGTH_LONG).show();
                 Intent intent = new Intent();
                 intent.setAction(Intent.ACTION_VIEW);
                 intent.addCategory(Intent.CATEGORY_BROWSABLE);
@@ -33,9 +35,10 @@ public class Bus extends AppCompatActivity {
         });
 
         CardView eagle = (CardView) findViewById(R.id.eagle);
-        patel.setOnClickListener(new View.OnClickListener() {
+        eagle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Toast.makeText(getApplicationContext(),"Site is loading...",Toast.LENGTH_LONG).show();
                 Intent intent = new Intent();
                 intent.setAction(Intent.ACTION_VIEW);
                 intent.addCategory(Intent.CATEGORY_BROWSABLE);
@@ -45,9 +48,10 @@ public class Bus extends AppCompatActivity {
         });
 
         CardView tusli = (CardView) findViewById(R.id.tulsi);
-        patel.setOnClickListener(new View.OnClickListener() {
+        tusli.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Toast.makeText(getApplicationContext(),"Site is loading...",Toast.LENGTH_LONG).show();
                 Intent intent = new Intent();
                 intent.setAction(Intent.ACTION_VIEW);
                 intent.addCategory(Intent.CATEGORY_BROWSABLE);
@@ -57,9 +61,10 @@ public class Bus extends AppCompatActivity {
         });
 
         CardView gsrtc = (CardView) findViewById(R.id.gsrtc);
-        patel.setOnClickListener(new View.OnClickListener() {
+        gsrtc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Toast.makeText(getApplicationContext(),"Site is loading...",Toast.LENGTH_LONG).show();
                 Intent intent = new Intent();
                 intent.setAction(Intent.ACTION_VIEW);
                 intent.addCategory(Intent.CATEGORY_BROWSABLE);

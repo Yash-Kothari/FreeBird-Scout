@@ -19,7 +19,6 @@ public class Dashboard extends AppCompatActivity {
         busses.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(),"Site is loading...",Toast.LENGTH_LONG).show();
                 Intent intent = new Intent(Dashboard.this,Bus.class);
                 startActivity(intent);
             }
@@ -28,7 +27,6 @@ public class Dashboard extends AppCompatActivity {
         hotelsss.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(),"Site is loading...",Toast.LENGTH_LONG).show();
                 Intent intent = new Intent(Dashboard.this,Hotel.class);
                 startActivity(intent);
             }
@@ -37,7 +35,6 @@ public class Dashboard extends AppCompatActivity {
         locationess.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(),"Site is loading...",Toast.LENGTH_LONG).show();
                 Intent intent = new Intent(Dashboard.this,Location.class);
                 startActivity(intent);
             }
@@ -46,7 +43,6 @@ public class Dashboard extends AppCompatActivity {
         developeress.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(),"Site is loading...",Toast.LENGTH_LONG).show();
                 Intent intent = new Intent(Dashboard.this,Developer.class);
                 startActivity(intent);
             }

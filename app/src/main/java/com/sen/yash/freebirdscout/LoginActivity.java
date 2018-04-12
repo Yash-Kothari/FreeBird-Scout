@@ -69,9 +69,4 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
     }
-
-    private void fillScreen(){
-        TextView screen = findViewById(R.id.text_screen);
-        screen.setText(userDBHandler.databaseToString());
-    }
 }
